@@ -1,0 +1,278 @@
+/* Reset de márgenes y rellenos para body y html */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el texto 1 */
+.texto1 {
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/* Estilos para el texto 2 */
+.texto2 {
+    color: #FEDA0A;
+}
+
+/* Estilos para fondot2 */
+.fondot2 {
+    background-color: black;
+    margin-left: 0;
+    margin-right: 900px;
+    margin-top: 100px;
+}
+
+/* Estilos para tituloh1 */
+.tituloh1 {
+    margin-left: 25px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/* Estilos para tituloh2 */
+.tituloh2 {
+    margin-left: 45px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #FEDA0A; /* Se corrigió el color */
+}
+
+/* Estilos para fondoh2 */
+.fondoh2 {
+    background-color: black;
+    margin-right: 1020px;
+    margin-left: 0;
+}
+
+/* Estilos para el elemento video */
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Estilos para el elemento sombras */
+.sombras {
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+/* Agrega este bloque de CSS a tu archivo de estilos */
+.alinear {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+
+/* Ajusta el ancho de los div internos para dar espacio entre ellos */
+.alinear > div {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.alinear2 {
+    flex: 1;
+    padding: 20px; /* Ajusta este valor según tus preferencias */
+    text-align: center;
+}
+
+.alinear3 {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    flex-direction: row;
+    color: white;
+}
+
+.alinear4 {
+    flex: 1;
+    padding: 20px; /* Ajusta este valor según tus preferencias */
+    text-align: center;
+}
+
+/* Estilos para el elemento margin */
+.margin {
+    margin-bottom: 0;
+    margin-top: 28px;
+}
+
+/* Estilos para el elemento fondo */
+.fondo {
+    flex: 1;
+    background-color: #9696969a;
+    border: 50%;
+    border-color: black;
+}
+
+/* Estilos para el elemento borde */
+.borde {
+    border: 2px solid #000; /* Cambia el grosor y el color según tus preferencias */
+}
+
+/* Estilos para el elemento borde2 */
+.borde2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* Estilos para el elemento footerfondo */
+.footerfondo {
+    flex: 1;
+    background-color: black;
+    border: 100%;
+    border-color: black;
+    height: 60px;
+    margin-top: 15px;
+}
+
+/* Estilos para el elemento navcafe */
+.navcafe {
+    background-color: black;
+    border-top: 5px solid black; /* Se corrigió la declaración de borde */
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: white;
+    word-spacing: 30px;
+    position: sticky;
+    top: 0; /* Barra de navegación se mantiene en la parte superior */
+}
+
+.navcafe a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para logofondo */
+.logofondo {
+    background-color: #000;
+    border-bottom: 10px solid #000; /* Se corrigió la declaración de borde */
+    text-align: left;
+}
+
+/* Estilos para logo2 */
+.logo2 {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+/* Estilos para h1cafeteria */
+.h1cafeteria {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/* Estilos para contenedor */
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre los elementos */
+}
+
+/* Estilos para el elemento texto */
+.texto {
+    flex: 1; /* Toma el espacio restante en la caja */
+    padding: 20px; /* Espaciado interior si es necesario */
+    text-align: left; /* Alineación del texto a la izquierda */
+    margin-left: 30px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/* Estilos para textofund */
+.textofund {
+    margin-left: 15px;
+    margin-top: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/* Estilos para imgcafeteria */
+.imgcafeteria {
+    flex: 1; /* Toma el espacio restante en la caja */
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.imgcafeteria img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+
+/* Estilos para el elemento equipo */
+.equipo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 45px;
+    margin-right: 35px;
+}
+
+.espacio {
+    margin-right: 10px;
+}
+
+/* Estilos para imgfund */
+.imgfund {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+}
+
+/* Estilos para tituloimg */
+.tituloimg {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color: #FEDA0A;
+}
+
+/* Estilos para maps */
+.maps {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Estilos para fondoamarillo */
+.fondoamarillo {
+    padding: 5px;
+    background-color: #FEDA0A;
+}
+
+/* Estilos para imgindex */
+.imgindex {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-left: 110px;
+}
+
+/* Estilos para textoindex */
+.textoindex {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/* Estilos para indeximg1 */
+.indeximg1 {
+    margin-left: 305px;
+}
+
+/* Estilos para taza */
+.taza {
+    margin-right: 25px;
+}
