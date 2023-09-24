@@ -144,6 +144,7 @@ body, html {
 .navcafe a {
     text-decoration: none;
     color: white;
+    margin-bottom: 25px;
 }
 
 /* Estilos para logofondo */
@@ -269,10 +270,19 @@ body, html {
 
 /* Estilos para indeximg1 */
 .indeximg1 {
-    margin-left: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos para taza */
 .taza {
     margin-right: 25px;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
 }
