@@ -124,11 +124,13 @@ body{
 /* Estilos para el elemento footerfondo */
 .footer{
     background-color:  #8B4513;
+    border: 100%;
+    border-color:  #8B4513;
     height: 100%;
     width: 100%;
     margin-top: 25px;
     padding-top: 15px;
-    margin: 0%
+
 }
 
 .footertexto{
@@ -343,7 +345,7 @@ logofondo {
 
 .menu-section ul li {
     display: inline;
-    margin-right: 20px; /* Añade margen derecho entre los elementos del menú */
+    margin-right: 0%; /* Añade margen derecho entre los elementos del menú */
 }
 
 .menu-section ul li:last-child {
@@ -355,3 +357,21 @@ logofondo {
     color: #fff; /* Cambia el color del texto según tus preferencias */
 }
 
+
+
+/* MEDIA QUARIES*/
+
+@media (max-width: 425px){
+    .navcafe{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 425px){
+    .menu-section{ 
+        margin-right: 0%;
+    }
+}
