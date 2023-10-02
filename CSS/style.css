@@ -142,28 +142,39 @@ body{
     
 }
 
-/* Estilos para el elemento navcafe */
-.navcafe0 {
-    background-color: black;
-    border-top: 5px solid black; /* Se corrigió la declaración de borde */
-    display: flex; /* Activa el modelo de caja flexible */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    color: white;
-    word-spacing: 30px;
+/*estilos para nav*/
+.navcafe{
+    background-color: #8B4513;
+    display: flex;
     position: sticky;
-    top: 0; /* Barra de navegación se mantiene en*/
+    top: 0;
+    z-index: 1000;
+}
+
+.navcafe a{
+    color: white;
+    text-decoration: none;
+}
+
+.navcafe ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.navcafe li{
+    display:inline;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.navcafe a:hover{
+    opacity: 0.8;
+    color: #FEDA0A;
 }
 
 
-
-/* Estilos para logofondo */
-logofondo {
-    background-color: #000;
-    border-bottom: 10px solid #000; /* Se corrigió la declaración de borde */
-    text-align: left;
-    border-radius: 10px; /* Bordes redondeados */
-}
 
 
 /* Estilos para h1cafeteria */
@@ -310,68 +321,15 @@ logofondo {
 
 .card:hover{
     opacity: 0.8;
+    color: #FEDA0A;
 }
 
 .card-text{
     text-align: justify;
 }
 
-.navcafe {
-    background-color: #8B4513; /* Cambia el color de fondo según tus preferencias */
-    position: sticky;
-    top: 0; /* Ajusta la posición en la que se vuelve pegajoso según tus necesidades */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    z-index: 100;
-}
-
-.logo-section {
-    display: flex;
-    align-items: center;
-}
-
-.logo2 {
-    max-height: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
-    margin-right: 10px; /* Añade margen derecho para separar la imagen del menú */
-}
-
-.menu-section ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu-section ul li {
-    display: inline;
-    margin-right: 0%; /* Añade margen derecho entre los elementos del menú */
-}
-
-.menu-section ul li:last-child {
-    margin-right: 0; /* Elimina el margen derecho del último elemento para evitar espacio adicional */
-}
-
-.menu-section ul li a {
-    text-decoration: none;
-    color: #fff; /* Cambia el color del texto según tus preferencias */
-}
 
 
 
 /* MEDIA QUARIES*/
 
-@media (max-width: 425px){
-    .navcafe{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-
-@media (max-width: 425px){
-    .menu-section{ 
-        margin-right: 0%;
-    }
-}
